@@ -1,0 +1,7 @@
+python3.11 -m pip install pandas dash
+
+wget -O spacex_launch_dash.csv "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv"
+
+wget "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/t4-Vy4iOU19i8y6E3Px_ww/spacex-dash-app.py"
+
+python spacex-dash-app.py
